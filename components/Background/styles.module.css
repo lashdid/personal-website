@@ -1,0 +1,27 @@
+.pixelLeft {
+    @apply opacity-50;
+    animation: diagonalyLeftMove 10s ease-in-out infinite alternate;
+}
+
+.pixelRight {
+    @apply opacity-50;
+    animation: diagonalyRightMove 20s ease-in-out infinite alternate;
+}
+
+@keyframes diagonalyLeftMove {
+    0% {
+        @apply -translate-x-8 -translate-y-8;
+    }
+    100% {
+        @apply translate-x-20 translate-y-20 rotate-90;
+    }
+}
+
+@keyframes diagonalyRightMove {
+    0% {
+        @apply translate-x-8 translate-y-8;
+    }
+    100% {
+        @apply -translate-x-20 translate-y-20 rotate-90;
+    }
+}
