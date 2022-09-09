@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['avatars.githubusercontent.com']
+    domains: ['avatars.githubusercontent.com', 'personal-website-cms.vercel.app']
   },
   webpack(config) {
     config.module.rules.push({
