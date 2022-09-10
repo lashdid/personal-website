@@ -1,27 +1,29 @@
 .pixelLeft {
-    @apply opacity-50;
-    animation: diagonalyLeftMove 10s ease-in-out infinite alternate;
+  @apply opacity-50;
+  animation-name: diagonalyLeftMove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
-.pixelRight {
+/* .pixelRight {
     @apply opacity-50;
     animation: diagonalyRightMove 20s ease-in-out infinite alternate;
-}
+} */
 
-@keyframes diagonalyLeftMove {
-    0% {
-        @apply -translate-x-8 -translate-y-8;
-    }
-    100% {
-        @apply translate-x-20 translate-y-20 rotate-90;
-    }
+@-webkit-keyframes diagonalyLeftMove {
+  from {
+    @apply -translate-x-8 -translate-y-8;
+  }
+  to {
+    @apply translate-x-20 translate-y-20 rotate-90;
+  }
 }
 
 @keyframes diagonalyRightMove {
-    0% {
-        @apply translate-x-8 translate-y-8;
-    }
-    100% {
-        @apply -translate-x-20 translate-y-20 rotate-90;
-    }
+  from {
+    @apply translate-x-8 translate-y-8;
+  }
+  to {
+    @apply -translate-x-20 translate-y-20 rotate-90;
+  }
 }

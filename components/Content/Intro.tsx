@@ -1,6 +1,5 @@
-import Navbar from "./Navbar";
-import dynamic from "next/dynamic";
-const ThemeButton = dynamic(() => import("./ThemeButton"), { ssr: false });
+import Navbar from "./components/Navbar";
+import ThemeButton from "./components/ThemeButton";
 
 export function Intro() {
   return (
