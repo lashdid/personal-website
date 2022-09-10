@@ -2,8 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scrollbar-color: #4b5563 transparent;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 10rem;
+}
+
 body {
-  @apply bg-white dark:bg-gray-800;
+  @apply bg-white dark:bg-gray-800 overflow-x-hidden;
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden
 }
