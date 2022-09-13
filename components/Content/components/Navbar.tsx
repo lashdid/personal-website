@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav
       className={clsx(
         isNavbarVisible
-          && "fixed w-full bg-white dark:bg-gray-800 top-0 py-3 z-10"
+          && "fixed w-full bg-gray-100 dark:bg-gray-800 top-0 py-3 z-10"
       )}
     >
       <div className="relative max-w-screen-xl flex justify-end items-center mx-auto px-10 md:px-20">

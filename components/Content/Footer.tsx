@@ -4,7 +4,7 @@ import NextLogo from "../../public/nextjs.svg";
 
 export function Footer() {
   return (
-    <footer className="max-w-screen-lg mx-auto flex justify-between items-center pb-5 px-5 text-gray-600">
+    <footer className="max-w-screen-lg mx-auto flex justify-between items-center pb-5 px-5 sm:px-10 text-gray-600">
       <div className="flex items-center gap-5 text-xs">
         Made with{" "}
         <a
