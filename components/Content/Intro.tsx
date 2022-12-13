@@ -7,7 +7,7 @@ export function Intro() {
       <ThemeButton className="absolute top-5 self-end" />
       <Navbar />
       <h1 className="text-3xl font-light mt-3">Hey, I&rsquo;m Lashdid</h1>
-      <span className="w-2/3 md:w-1/2 text-gray-700 dark:text-gray-500 mt-3 text-center">
+      <span className="w-1/2 text-gray-700 dark:text-gray-500 mt-3 text-center">
         I build things, mostly websites. Sometimes I contribute to small projects and I love to
         learn something new.
       </span>

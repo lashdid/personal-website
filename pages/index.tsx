@@ -23,7 +23,7 @@ export default function Home(props: PageProps) {
       </Head>
       <main className="relative max-w-screen-2xl mx-auto">
         <Background />
-        <section className="max-w-screen-xl mx-auto p-10 md:p-20">
+        <section className="max-w-screen-xl mx-auto p-8 md:p-20">
           <Intro />
           <Projects {...props} />
         </section>
